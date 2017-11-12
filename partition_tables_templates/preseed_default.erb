@@ -2,7 +2,6 @@
 name: Preseed default
 snippet: false
 model: Ptable
-os_family: Debian
 %>
 <%
   partitioning_method = @host.params['partitioning-method'] ? @host.params['partitioning-method'] : 'regular'
