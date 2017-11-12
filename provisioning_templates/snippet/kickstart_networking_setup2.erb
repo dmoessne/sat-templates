@@ -2,6 +2,7 @@
 name: kickstart_networking_setup2
 snippet: true
 model: ProvisioningTemplate
+test from git
 %>
 <%- bonded_interfaces = [] -%>
 <%- @host.bond_interfaces.each do |bond| -%>
